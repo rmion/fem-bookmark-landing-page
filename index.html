@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+<body>
+  <header>
+    <div class="container col-group">
+      <p><img src="./images/logo-bookmark.svg" alt="Bookmark logo" /></p>
+      <p><button class="button menu" id="nav-toggle" href="#menu" aria-pressed="false" aria-haspopup="true">Menu</button></p>
+      <nav id="menu" class="collapsed">
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="button">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article>
+      <div class="container desktop-multi-col photo-swap">
+        <p class="bg-shape from-right"><img src="./images/illustration-hero.svg" alt="" /></p>
+        <div>
+          <h1>A Simple Bookmark Manager</h1>
+          <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <p class="button-group">
+            <a href="#" class="button primary">Get it on Chrome</a>
+            <a href="#" class="button secondary">Get it on Firefox</a>
+          </p>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="container medium">
+        <h2>Features</h2>
+        <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        <details>
+          <summary>
+            Simple Bookmarking
+          </summary>
+          <section class="desktop-multi-col">
+            <p class="bg-shape from-left"><img src="./images/illustration-features-tab-1.svg" alt=""></p>
+            <div>
+              <h3>Bookmark in one click</h3>
+              <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>        
+              <p><a href="#" class="button primary">More Info</a></p>
+            </div>
+          </section>
+        </details>
+        <details>
+          <summary>
+            Speedy Searching
+          </summary>
+          <section class="desktop-multi-col">
+            <p class="bg-shape from-left"><img src="./images/illustration-features-tab-2.svg" alt=""></p>
+            <div>
+              <h3>Intelligent search</h3>
+              <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>        
+              <p><a href="#" class="button primary">More Info</a></p>
+            </div>
+          </section>
+        </details>
+        <details>
+          <summary>
+            Easy Sharing
+          </summary>
+          <section class="desktop-multi-col">
+            <p class="bg-shape from-left"><img src="./images/illustration-features-tab-3.svg" alt=""></p>
+            <div>
+              <h3>Share your bookmarks</h3>
+              <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>        
+              <p><a href="#" class="button primary">More Info</a></p>
+            </div>
+          </section>
+        </details>
+      </div>
+    </article>
+    <article>
+      <div class="container medium">
+        <h2>Download the extension</h2>
+        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+        <ul class="card-group">
+          <li>
+            <img src="./images/logo-chrome.svg" alt="">
+            <h3>Add to Chrome</h3>
+            <p>Minimum version 62</p>
+            <p><a href="#" class="button primary">Add & Install Extension</a></p>
+          </li>
+          <li>
+            <img src="./images/logo-firefox.svg" alt="">
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p>
+            <p><a href="#" class="button primary">Add & Install Extension</a></p>
+          </li>
+          <li>
+            <img src="./images/logo-opera.svg" alt="">
+            <h3>Add to Opera</h3>
+            <p>Minimum version 46</p>
+            <p><a href="#" class="button primary">Add & Install Extension</a></p>
+          </li>
+        </ul>
+      </div>
+    </article>
+    <article>
+      <div class="container narrow">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+        <details class="faq">
+          <summary>
+            What is Bookmark?
+          </summary>
+          <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </section>
+        </details>
+        <details class="faq">
+          <summary>
+            How can I request a new browser?
+          </summary>
+          <section>
+            <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+          </section>
+        </details>
+        <details class="faq">
+          <summary>
+            Is there a mobile app?
+          </summary>
+          <section>
+            <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
+          </section>
+        </details>
+        <details class="faq">
+          <summary>
+            What about other Chromium browsers?
+          </summary>
+          <section>
+            <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+          </section>
+        </details>
+        <p><a href="#" class="button primary">More Info</a></p>
+      </div>
+    </article>
+  </main>
+  <aside>
+    <div class="container narrow">
+      <h2>35,000+ already joined</h2>
+      <h3>Stay up-to-date with what we’re doing</h3>
+      <form action="">
+        <label for="email" class="visually-hidden">Email address</label>
+        <input type="email" id="email" placeholder="Enter your email address..." required />
+        <input type="submit" value="Contact Us" class="button wild" />
+      </form>
+    </div>
+  </aside>
+  <footer>
+    <div class="container desktop-multi-col">
+      <div class="desktop-multi-col">
+        <p><img src="./images/logo-bookmark-reversed.svg" alt="Bookmark logo"></p>
+        <ul class="sitemap">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul> 
+      </div>
+      <ul class="social-icons">
+        <li><a href="#"><img src="./images/icon-facebook.svg" alt="Follow us on Facebook"></a></li>
+        <li><a href="#"><img src="./images/icon-twitter.svg" alt="Follow us on Twitter"></a></li>
+      </ul>
+    </div>
+    <p class="attribution">
+      <small>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://rmion.com">Robert Mion</a>.</small>
+    </p>
+  </footer>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('nav-toggle').addEventListener('click', function(e) {
+        e.target.setAttribute('aria-pressed', !e.target.getAttribute('aria-pressed'));
+        document.getElementById('menu').classList.toggle('collapsed');
+      });
+    })
+  </script>
+</body>
+</html>
